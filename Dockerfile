@@ -1,7 +1,7 @@
 FROM gogs/gogs:0.9.97
 MAINTAINER Oumar Aziz OUATTARA (wattazoum)
 
-RUN apk --update add wget openjdk8
+RUN apk --update add wget openjdk8 subversion
 
 RUN wget -q --no-check-certificate https://subgit.com/download/subgit-3.2.2.zip -O /tmp/subgit.zip
 
