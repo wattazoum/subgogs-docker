@@ -2,7 +2,7 @@
 
 | SubGit | Gogs  |
 | ------ | ----- |
-|  3.2.2   | latest  |
+|  3.2.2 | 0.9.71  |
 
 
 ## [SubGIT]
@@ -19,5 +19,10 @@ A painless self-hosted Git service.
 
 [GoGS]: https://gogs.io/
 
+## Why Gogs 0.9.71 (and not the 0.9.97)
 
+The 0.9.97 can't handle correctly first LDAP logon. ( gogits/gogs#3926 )
+The latest version can handle it but doesn't allow repository creation in Organistations. ( gogits/gogs#3905 )
+
+The version 0.9.71 doesn't have those regressions.
 

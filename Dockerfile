@@ -1,4 +1,4 @@
-FROM gogs/gogs
+FROM gogs/gogs:0.9.71
 MAINTAINER Oumar Aziz OUATTARA (wattazoum)
 
 RUN apk --update add wget openjdk8 subversion
